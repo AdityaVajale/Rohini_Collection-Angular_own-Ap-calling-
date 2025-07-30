@@ -1,0 +1,51 @@
+/* Remove default margin and padding from all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Make body full width and remove scroll gap */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Fixed, full-width header with stylish background */
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to right, #c62828, #ad1457);
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Brand name */
+.brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navigation links */
+.nav-links a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffd700;
+}
+
+

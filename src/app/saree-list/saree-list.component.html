@@ -1,0 +1,12 @@
+<h2 class="text-center" style="text-align: center;color:rgb(231, 50, 0) ;margin-top: 100px;" >Our Saree Collection</h2>
+<div class="saree-container">
+  <div *ngFor="let saree of sarees" class="saree-card">
+    <img [src]="saree.image" [alt]="saree.name">
+    <h3>{{saree.name}}</h3>
+    <p>{{saree.price |currency:'INR':'symbol-narrow'}}</p>
+    <p>{{saree.material}}|{{saree.color}}</p>
+    <button [routerLink]="['/saree', saree.id]">View Details</button>
+
+  </div>
+
+</div>

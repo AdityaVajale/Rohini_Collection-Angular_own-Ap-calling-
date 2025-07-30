@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "name": "Kanjivaram Silk Saree",
+    "price": 3599,
+    "material": "Silk",
+    "color": "Red",
+    "occasion": "Wedding",
+    "image": "assets/images/img1.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Cotton Printed Saree",
+    "price": 1299,
+    "material": "Cotton",
+    "color": "Blue",
+    "occasion": "Casual",
+    "image": "assets/images/img2.jpeg"
+  }
+  ,{
+   "id": 3,
+    "name": "Silk Saree with Rust and Black Pallu",
+    "price": 2499,
+    "material": "Silk",
+    "color": "Rust with Black and Red Pallu",
+    "occasion": "Festive",
+    "image":"assets/images/img3.jpeg"
+
+},
+{
+  "id": 4,
+      "name": "Red and Green Banarasi Saree",
+    "price": 2199,
+    "material": "Silk Cotton",
+    "color": "Red with Green Pallu",
+    "occasion": "Wedding",
+      "image": "assets/images/img4.jpeg"
+},
+{
+    "id": 5,
+      "name": "Maheshwari Pink and Blue Handloom Saree",
+    "price": 2899,
+    "material": "Maheshwari Silk",
+    "color": "Rani Pink with Navy Blue Pallu",
+    "occasion": "Ethnic",
+      "image": "assets/images/img5.jpeg"
+}
+]
